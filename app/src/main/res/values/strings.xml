@@ -7,6 +7,9 @@
     <string name="enter_address_hint">Enter address here.</string>
     <string name="submit_button">Submit</string>
     <string name="website_button">Website Lookup</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="no_internet">You are not connected to the internet.</string>
+    <string name="ask_for_address">Please enter an address.</string>
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
