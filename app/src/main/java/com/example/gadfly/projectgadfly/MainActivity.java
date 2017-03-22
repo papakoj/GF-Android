@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        HomeFragment homeFragment = new HomeFragment();
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.content_main, homeFragment).commit();
+
     }
 
     @Override
@@ -86,9 +90,14 @@ public class MainActivity extends AppCompatActivity
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, fragment).commit();
         } else if (id == R.id.nav_home) {
+            HomeFragment homeFragment = new HomeFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, homeFragment).commit();
 
         } else if (id == R.id.nav_team) {
-
+            TeamFragment teamFragment = new TeamFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.content_main, teamFragment).commit();
         }
 
             // Highlight the selected item has been done by NavigationView

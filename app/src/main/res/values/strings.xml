@@ -3,7 +3,10 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="logo_content_description">Gadfly Logo</string>
+    <string name="enter_address_hint">Enter address here.</string>
+    <string name="submit_button">Submit</string>
+    <string name="website_button">Website Lookup</string>
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
